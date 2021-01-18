@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Mobile</string>
+
+    <string-array name="film">
+        <item>IRON MAN</item>
+        <item>JOKER</item>
+        <item>PACIFIC RIM</item>
+        <item>THE HILL</item>
+        <item>DUNKIRK</item>
+    </string-array>
+
+    <string-array name="Description">
+        <item>Random</item>
+        <item>Random</item>
+        <item>Random</item>
+        <item>Random</item>
+        <item>Random</item>
+    </string-array>
+
+</resources>

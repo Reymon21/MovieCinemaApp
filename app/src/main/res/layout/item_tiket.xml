@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/linear"
+    android:padding="20dp"
+    android:orientation="horizontal">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="3"
+    android:orientation="vertical">
+
+    <TextView
+        android:textColor="#18514C"
+        android:id="@+id/tv_nomor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nomor Tiket : "  />
+
+    <TextView
+        android:textColor="#18514C"
+        android:id="@+id/tv_jenis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jenis Tiket : " />
+
+    <TextView
+        android:textColor="#18514C"
+        android:id="@+id/tv_jumlah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jumlah Tiket : "  />
+
+    <TextView
+        android:textColor="#18514C"
+        android:id="@+id/tv_harga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Harga Tiket : "  />
+
+
+</LinearLayout>
+
+    <ImageView
+        android:id="@+id/hapus"
+        android:layout_width="58dp"
+        android:layout_height="67dp"
+        android:layout_weight="1"
+        android:src="@drawable/del" />
+</LinearLayout>
