@@ -1,4 +1,4 @@
-# MovieCinemaApp
+# CinemaApp
 
 ![code quality score](https://www.code-inspector.com/project/25471/score/svg)
 
